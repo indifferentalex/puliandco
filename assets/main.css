@@ -1,0 +1,262 @@
+/* base: #00b889, light: #18c99c; */
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background: #00b889;
+}
+
+.white-background {
+	background: #fff;
+}
+
+.main-content p {
+	font-size: 17px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #00b889;
+}
+
+a:hover {
+	color: #00b889;
+}
+
+.clean-green {
+	color: #00b889;
+}
+
+.header {
+	padding: 0px;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+img.small-frame {
+	padding: 5% 15%;
+}
+
+@media only screen and (max-width : 768px) {
+	img.small-frame {
+		padding: 0px;
+	}
+}
+
+img.medium-frame {
+	padding: 5% 25%;
+}
+
+.navbar {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.navbar a.navbar-brand {
+	padding: 0px;
+}
+
+.navbar a.navbar-brand img {
+	height: 60px;
+}
+
+.navbar a {	
+	font-size: 18px;
+}
+
+.navbar ul.nav li a {
+	color: #333;
+	padding: 20px;
+}
+
+.navbar ul.nav li a:hover {
+	color: #00b889;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar {
+	background-color: #00b889;
+}
+
+.navbar .navbar-header .navbar-toggle:hover {
+	background: #00b889;
+}
+
+.navbar .navbar-header .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+
+.navbar .navbar-header .navbar-toggle:focus {
+	background: #00b889;
+}
+
+.navbar .navbar-header .navbar-toggle:focus .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-collapse {
+	border-top: none;
+}
+
+.navbar .dropdown.open a.dropdown-toggle {
+	background: none;
+	box-shadow: none;
+}
+
+.navbar .dropdown-menu {
+	border: none;
+}
+
+.navbar .dropdown-menu li a:hover {
+	color: #00b889;
+	background: none;
+}
+
+.navbar .navbar-right .contact-button {
+	color: #fff;
+	background: #00b889;
+}
+
+.navbar .navbar-right .contact-button:hover {
+	color: #fff;
+	background: #18c99c;
+}
+
+.feature-highlight.right-aligned {
+	text-align: right;
+}
+
+.main-content a.continuation-link {
+	display: inline-block;
+	width: 100%;
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.feature-highlight h2 {
+	font-weight: bold;
+}
+
+.feature-highlight.left-aligned .col-md-7 {
+	padding-left: 42px;
+}
+
+.feature-highlight.right-aligned .col-md-7 {
+	padding-right: 42px;
+}
+
+@media only screen and (max-width : 768px) {
+	.feature-highlight h2 {
+		text-align: center;
+	}
+
+	.feature-highlight p {
+		text-align: left;
+	}
+
+	.main-content a.continuation-link {
+		text-align: left;
+		margin-top: 12px;
+		padding-top: 0px;
+		border-top: none;
+	}
+
+	.feature-highlight.left-aligned .col-md-7 {
+		padding-left: 15px;
+	}
+
+	.feature-highlight.right-aligned .col-md-7 {
+		padding-right: 15px;
+	}	
+}
+
+.contact-form {
+	width: 628px;
+	margin: 0px auto;
+}
+
+.contact-form h2 {
+	text-align: center;
+	margin-bottom: 6px;
+}
+
+.contact-form h3 {
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 24px;
+}
+
+.contact-form .row:last-child {
+	text-align: right;
+}
+
+.contact-form button.btn.btn-default {
+	text-shadow: none;
+	color: #00b889;
+	margin-top: 15px;
+	border: 1px solid #00b889;
+}
+
+.contact-form button.btn.btn-default:hover {
+	color: #fff;
+	background: #00b889;
+}
+
+.contact-form input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, textarea.form-control:focus {
+  border-color: #00b889;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 184, 137, 0.4);
+  outline: 0 none;
+}
+
+@media only screen and (max-width : 768px) {
+	.contact-form {
+		width: auto;
+		margin: 0px;
+	}
+}
+
+.gallery .col-md-6 {
+	padding: 15px;
+}
+
+@media only screen and (max-width : 768px) {
+	.gallery .col-md-6 {
+		padding: 8px 16px;
+	}
+}
+
+.footer .row.links {
+	margin-top: 24px;
+	padding: 12px 0px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.footer .row.legal-info {
+	color: #e5e5e5;
+	padding: 12px 0px;
+	text-align: center;
+}
+
+.footer h4 {
+	font-weight: bold;
+}
+
+.footer a {
+	font-size: 17px;
+}
+
+.footer ul {
+	padding-left: 0px;
+	list-style: none;
+}
