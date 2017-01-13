@@ -95,6 +95,44 @@ layout: default
 </div>
 </div>
 
+<script type="text/javascript">
+	jQuery(function() {
+		var beforeAfterWidth = $(".before-and-after").width();
+		$(".before-wrapper img").width($(".before-wrapper img").parent(".before-wrapper").parent(".before-and-after").width());
+
+		$(".before-and-after").mousemove(function(e) {
+		   var offset = $(this).offset(); 
+		   var relX = e.pageX - offset.left;
+		   var relY = e.pageY - offset.top;
+
+		   $(".before-wrapper").width(relX);
+		});
+	});
+</script>
+
+<div class="component">
+<div class="row feature-highlight right-aligned">
+	<div class="col-md-5 col-md-push-7 vcenter">
+		<div class="row photos">
+			<div class="col-md-12 before-and-after">
+				<img src="{{ site.baseurl }}/assets/images/foto_3.jpg"/>
+				<div class="before-wrapper">
+					<img class="filler" src="{{ site.baseurl }}/assets/images/foto_4.jpg"/>
+				</div>
+				<div class="after-wrapper">
+					<img src="{{ site.baseurl }}/assets/images/foto_5.jpg"/>
+				</div>
+			</div>
+		</div>
+	</div><!--
+	--><div class="col-md-7 col-md-pull-5 vcenter">
+		<h2><span class="clean-green">UN ALTRO TITOLO</span></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae elit leo. Sed tempus hendrerit cursus. Vivamus a lorem tincidunt, ultrices est non, rhoncus quam. Nam cursus nunc vel elit condimentum ullamcorper at et justo. Sed tincidunt leo augue, quis pulvinar elit suscipit eget. Praesent porttitor tellus a molestie sodales.</p>
+		<a class="continuation-link" href="#">Link a quello di cui si parla <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+	</div>
+</div>
+</div>
+
 <!-- <div class="component">
 <div class="row">
 	<div class="col-md-12">

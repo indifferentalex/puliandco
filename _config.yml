@@ -23,6 +23,7 @@ logo: ""
 
 # Build settings
 markdown: kramdown
+port: 5000
 gems:
   - jekyll-feed
   - jekyll-seo-tag
