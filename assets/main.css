@@ -1,8 +1,9 @@
 /* base: #00b889, light: #18c99c; */
+/* base: #1974d1, light: #358be4 */
 
 body {
 	font-family: 'Nunito Sans', sans-serif;
-	background: #00b889;
+	background: #1974d1;
 }
 
 .white-background {
@@ -22,15 +23,15 @@ img {
 }
 
 a {
-	color: #00b889;
+	color: #1974d1;
 }
 
 a:hover {
-	color: #00b889;
+	color: #1974d1;
 }
 
 .clean-green {
-	color: #00b889;
+	color: #1974d1;
 }
 
 .header {
@@ -83,7 +84,7 @@ img.medium-frame {
 }
 
 .navbar ul.nav li a:hover {
-	color: #00b889;
+	color: #1974d1;
 }
 
 .navbar-toggle {
@@ -91,11 +92,11 @@ img.medium-frame {
 }
 
 .navbar .navbar-header .navbar-toggle .icon-bar {
-	background-color: #00b889;
+	background-color: #1974d1;
 }
 
 .navbar .navbar-header .navbar-toggle:hover {
-	background: #00b889;
+	background: #1974d1;
 }
 
 .navbar .navbar-header .navbar-toggle:hover .icon-bar {
@@ -103,7 +104,7 @@ img.medium-frame {
 }
 
 .navbar .navbar-header .navbar-toggle:focus {
-	background: #00b889;
+	background: #1974d1;
 }
 
 .navbar .navbar-header .navbar-toggle:focus .icon-bar {
@@ -124,18 +125,27 @@ img.medium-frame {
 }
 
 .navbar .dropdown-menu li a:hover {
-	color: #00b889;
+	color: #1974d1;
 	background: none;
+}
+
+.navbar .dropdown-menu li a.disabled {
+	cursor: default;
+	color: #333;
+}
+
+.navbar .dropdown-menu li a.disabled:hover {
+	color: #333;
 }
 
 .navbar .navbar-right .contact-button {
 	color: #fff;
-	background: #00b889;
+	background: #3ada56;
 }
 
 .navbar .navbar-right .contact-button:hover {
 	color: #fff;
-	background: #18c99c;
+	background: #3ada56;
 }
 
 .feature-highlight.right-aligned {
@@ -235,18 +245,18 @@ img.medium-frame {
 
 .contact-form button.btn.btn-default {
 	text-shadow: none;
-	color: #00b889;
+	color: #1974d1;
 	margin-top: 15px;
-	border: 1px solid #00b889;
+	border: 1px solid #1974d1;
 }
 
 .contact-form button.btn.btn-default:hover {
 	color: #fff;
-	background: #00b889;
+	background: #1974d1;
 }
 
 .contact-form input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, textarea.form-control:focus {
-  border-color: #00b889;
+  border-color: #1974d1;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 184, 137, 0.4);
   outline: 0 none;
 }
@@ -274,6 +284,8 @@ img.medium-frame {
 }
 
 .before-and-after img {
+	cursor: ew-resize;
+
 	position: relative;
 	width: 100%;
 }
