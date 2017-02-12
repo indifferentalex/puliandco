@@ -65,7 +65,7 @@ layout: default
 				<img src="{{ site.baseurl }}/assets/images/foto_3.jpg"/>
 			</div>
 		</div>
-		<div class="row photos">
+<!-- 		<div class="row photos">
 			<div class="col-xs-4">
 				<img src="{{ site.baseurl }}/assets/images/foto_5.jpg"/>
 			</div>
@@ -75,11 +75,11 @@ layout: default
 			<div class="col-xs-4">
 				<img src="{{ site.baseurl }}/assets/images/foto_4.jpg"/>
 			</div>			
-		</div>
+		</div> -->
 	</div><!--
 	--><div class="col-md-7 vcenter">
 		<h2><span class="clean-green">Trattamento superfici</span></h2>
-		<p>Un lavaggio costante dei pannelli fotovoltaici e solari è indispensabile per ottimizzare la loro produzione e prevenire il loro deterioramento. Studi tecnici dimostrano che una pannello sporco può perdere fino al 50% della propria resa energetica. E’ chiaro quindi che investire nella pulizia vi consentirà ricavare il massimo dal vostro impianto. Effettuiamo il trattamento del <a href="#gres">gres porcellanato</a>, <a href="#marmo">marmo</a>, pietre naturali e <a href="#mattoni">cotto mattoni a faccia vista</a>.</p>
+		<p>L'operazione di trattamento delle superfici è un processo fondamentale e talvolta indispensabile che facilita le operazioni di pulizia e protegge il materiale dal deterioramento. Effettuiamo il trattamento del <a href="#gres">gres porcellanato</a>, <a href="#marmo">marmo</a>, pietre naturali e <a href="#mattoni">cotto mattoni a faccia vista</a>.</p>
 <!-- 		<a class="continuation-link" href="#">Link a quello di cui si parla <i class="fa fa-arrow-right" aria-hidden="true"></i></a> -->
 	</div>
 </div>
@@ -112,24 +112,37 @@ layout: default
 </div>
 </div>
 
+<script type="text/javascript">
+	jQuery(function() {
+		$(".photo-viewer img").click(function() {
+			currentSrc = $(this).closest(".photo-viewer").find(".main-photo").attr("src");
+			photoSrc = $(this).attr("src");			
+			$(this).closest(".photo-viewer").find(".main-photo").attr("src", photoSrc);
+			$(this).attr("src", currentSrc);
+		});
+	});
+</script>
+
 <div class="component"><a name="marmo"></a>
 <div class="row feature-highlight right-aligned">
 	<div class="col-md-5 vcenter">
-		<div class="row photos">
-			<div class="col-md-12">
-				<img src="{{ site.baseurl }}/assets/images/foto_3.jpg"/>
+		<div class="photo-viewer">
+			<div class="row photos">
+				<div class="col-md-12">
+					<img class="main-photo" src="{{ site.baseurl }}/assets/images/foto_3.jpg"/>
+				</div>
 			</div>
-		</div>
-		<div class="row photos">
-			<div class="col-xs-4">
-				<img src="{{ site.baseurl }}/assets/images/foto_5.jpg"/>
+			<div class="row photos">
+				<div class="col-xs-4">
+					<img src="{{ site.baseurl }}/assets/images/foto_5.jpg"/>
+				</div>
+				<div class="col-xs-4">
+					<img src="{{ site.baseurl }}/assets/images/foto_6.jpg"/>
+				</div>
+				<div class="col-xs-4">
+					<img src="{{ site.baseurl }}/assets/images/foto_4.jpg"/>
+				</div>			
 			</div>
-			<div class="col-xs-4">
-				<img src="{{ site.baseurl }}/assets/images/foto_6.jpg"/>
-			</div>
-			<div class="col-xs-4">
-				<img src="{{ site.baseurl }}/assets/images/foto_4.jpg"/>
-			</div>			
 		</div>
 	</div><!--
 	--><div class="col-md-7 vcenter">
