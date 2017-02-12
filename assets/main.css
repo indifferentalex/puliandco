@@ -294,6 +294,16 @@ img.medium-frame {
 	padding: 0px;
 }
 
+.feature-highlight ul {
+	list-style: none;
+}
+
+.feature-highlight ul li:not(:last-child) {
+	margin-bottom: 6px;
+	padding-bottom: 6px;	
+	border-bottom: 1px solid #e9e9e9;
+}
+
 .before-and-after img {
 	cursor: ew-resize;
 
