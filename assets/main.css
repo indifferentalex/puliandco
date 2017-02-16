@@ -304,6 +304,10 @@ img.medium-frame {
 	border-bottom: 1px solid #e9e9e9;
 }
 
+.feature-highlight .photo-viewer {
+	cursor: pointer;
+}
+
 .before-and-after img {
 	cursor: ew-resize;
 
