@@ -73,7 +73,7 @@ img.medium-frame {
 .navbar a.navbar-brand img {
 	padding: 5px 15px;
 	margin-right: 15px;
-	height: 50px;
+	height: 70px;
 }
 
 .navbar a {	
@@ -82,7 +82,7 @@ img.medium-frame {
 
 .navbar ul.nav li a {
 	color: #333;
-	padding: 20px;
+	padding: 30px;
 }
 
 .navbar ul.nav li a:hover {
@@ -90,6 +90,7 @@ img.medium-frame {
 }
 
 .navbar-toggle {
+	margin-top: 18px;
 	border: none;
 }
 
@@ -343,6 +344,33 @@ img.medium-frame {
 .before-and-after .after-wrapper img {
 	position: absolute;
 	right: 0px;
+}
+
+.row.partner-row {
+	margin: 72px 0px;
+}
+
+/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+
+@media (max-width: 992px) {
+	.video-column {
+		min-width: 100%;
+		max-width: 100%;
+	}
 }
 
 .footer .row.links {
