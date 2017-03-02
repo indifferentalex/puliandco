@@ -97,6 +97,7 @@ img.medium-frame {
 	border-radius: 0px;
 	border: none;
 	box-shadow: none;
+	margin-bottom: 0px;
 }
 
 .navbar a.navbar-brand {
@@ -233,6 +234,12 @@ img.medium-frame {
 
 .feature-highlight.right-aligned .col-md-7 {
 	padding-right: 42px;
+}
+
+p.image-alt-text {
+	font-size: 14px;
+	color: #555;
+	padding: 6px 0px;
 }
 
 @media only screen and (max-width : 768px) {
