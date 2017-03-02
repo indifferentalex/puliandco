@@ -19,6 +19,24 @@ body {
 	padding: 24px 0px;
 }
 
+.mobile-home-banner {
+	display: none;
+}
+
+.desktop-home-banner {
+	display: inline;
+}
+
+@media (max-width: 992px) {
+	.mobile-home-banner {
+		display: inline;
+	}
+
+	.desktop-home-banner {
+		display: none;
+	}
+}
+
 img {
 	max-width: 100%;
 }
@@ -32,7 +50,7 @@ a:hover {
 }
 
 .clean-green {
-	color: #1974d1;
+	color: #00b889;
 }
 
 .header {
