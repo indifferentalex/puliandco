@@ -24,15 +24,31 @@ body {
 }
 
 .desktop-home-banner {
-	display: inline;
+	display: block;
+}
+
+.mobile-home-text {
+	display: none;
+}
+
+.desktop-home-text {
+	display: block;
 }
 
 @media (max-width: 992px) {
 	.mobile-home-banner {
-		display: inline;
+		display: block;
 	}
 
 	.desktop-home-banner {
+		display: none;
+	}
+
+	.mobile-home-text {
+		display: block;
+	}
+
+	.desktop-home-text {
 		display: none;
 	}
 }
