@@ -43,41 +43,34 @@ layout: default
 		<div class="row">
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Nome</label>
-					<input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="" required>
+					<label for="exampleInputName">Nome</label>
+					<input type="text" class="form-control" id="exampleInputName">
 				</div>
 			</div>				
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="exampleInputEmail1">Email o telefono</label>
-					<input type="text" name="email-telefono" class="form-control" id="exampleInputEmail1" placeholder="" required>
+					<label for="exampleInputEmail">Email o telefono</label>
+					<input type="text" class="form-control" id="exampleInputEmail">
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="form-group">
-					<label for="exampleInputPassword1">Oggetto</label>
-					<input type="text" name="info-utile-1" class="form-control" id="exampleInputPassword1" placeholder="" >
+					<label for="exampleInputSubject">Oggetto</label>
+					<input type="text" name="info-utile-1" class="form-control" id="exampleInputSubject" placeholder="" >
 				</div>
 			</div>				
-<!-- 			<div class="col-md-6">
-				<div class="form-group">
-					<label for="exampleInputEmail1">Informazione utile 2</label>
-					<input type="text" name="info-utile-2" class="form-control" id="exampleInputEmail1" placeholder="paolorossi@gmail.com">
-				</div>
-			</div> -->
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<textarea class="form-control" name="dettagli" rows="3">Altri dettagli</textarea>
+				<label for="exampleInputMessage">Messaggio</label>
+				<textarea class="form-control" name="dettagli" rows="3"></textarea>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<input type="text" name="_gotcha" style="display:none" />
-				<input type="hidden" name="_next" value="http://www.puliandco.it/contatti.html?message=sent" />
-				<button type="submit" value="Send" class="btn btn-default">Invia messaggio</button>
+				<button type="submit" class="btn btn-default">Invia messaggio</button>
 			</div>
 		</div>
 	</form>
