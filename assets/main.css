@@ -469,9 +469,15 @@ p.image-alt-text {
 }
 
 .footer .row.legal-info {
-	color: #e5e5e5;
+	font-size: 14px;
+	color: #999;
 	padding: 12px 0px;
 	text-align: center;
+}
+
+.footer .row.legal-info a {
+	font-size: 14px;
+	color: #999;
 }
 
 .footer img {
