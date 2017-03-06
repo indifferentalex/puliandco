@@ -9,6 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/main.css">
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bower_components/font-awesome/css/font-awesome.min.css">
 
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bower_components/cookieconesnt/src/styles/themes/animation.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bower_components/cookieconesnt/src/styles/themes/base.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bower_components/cookieconesnt/src/styles/themes/layout.css">
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/bower_components/cookieconesnt/src/styles/themes/classic.css">
+	<script src="{{ site.baseurl }}/bower_components/cookieconsent/src/cookieconsent.js"></script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="{{ site.baseurl }}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	
@@ -23,5 +29,27 @@
 	  ga('create', 'UA-55968974-5', 'auto');
 	  ga('send', 'pageview');
 
+	</script>	
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+	    "popup": {
+	      "background": "#252e39"
+	    },
+	    "button": {
+	      "background": "#14a7d0"
+	    }
+	  },
+	  "content": {
+	    "message": "Questo sito utilizza cookies tecnici e di terze parti per offrire una migliore esperienza di navigazione. Chiudendo questo banner, cliccando in un'area sottostante o accedendo ad un'altra pagina del sito, acconsenti all’uso dei cookie. Per maggiori informazioni consultare la ",
+	    "dismiss": "Chiudi",
+	    "link": "Privacy policy",
+	    "href": "cookie_policy"
+	  }
+	})});
 	</script>	
 </head>
