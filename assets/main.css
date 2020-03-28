@@ -144,7 +144,7 @@ img.medium-frame {
 	height: 68px;
 }
 
-.navbar a {	
+.navbar a {
 	font-size: 18px;
 }
 
@@ -299,7 +299,7 @@ p.image-alt-text {
 
 	.feature-highlight.right-aligned .col-md-7 {
 		padding-right: 15px;
-	}	
+	}
 }
 
 .contact-form {
@@ -377,7 +377,7 @@ p.image-alt-text {
 
 .feature-highlight ul li:not(:last-child) {
 	margin-bottom: 6px;
-	padding-bottom: 6px;	
+	padding-bottom: 6px;
 	border-bottom: 1px solid #e9e9e9;
 }
 
@@ -495,4 +495,17 @@ p.image-alt-text {
 .footer ul {
 	padding-left: 0px;
 	list-style: none;
+}
+
+.warning-notice {
+	background: #ce2b37;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	padding: 9px 18px;
+}
+
+.warning-notice a {
+	color: #fff;
+	text-decoration: underline;
 }
